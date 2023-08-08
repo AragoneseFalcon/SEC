@@ -82,7 +82,7 @@ function Get-SECNotifications {
             }  
         }
 
-        # Only check fof filing if submission window is open
+        # Only check for filing if submission window is open
         while (($date -ge $sixAmEst) -and ($date -le $tenPmEst)) {
 
             # Check each CIK individually to see if there are filings dated TODAY / space requests to 10 per second
